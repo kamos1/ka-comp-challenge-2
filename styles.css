@@ -47,6 +47,10 @@ span {
   color: #2AB7FE;
 }
 
+.triangle {
+  width: 15px;
+}
+
 .logo {
   height: 100px;
   width: 100px;
