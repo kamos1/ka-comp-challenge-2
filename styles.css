@@ -1,0 +1,265 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #2b2b2b;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+}
+
+li {
+  color: #878787;
+  margin: 0 35px;
+}
+
+.li-text {
+  font-size: 0;
+}
+
+.icons {
+  width: 1.5em;
+}
+
+.white-icons {
+  filter: invert(100);
+}
+
+.white-letters {
+  color: #fff;
+}
+
+span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.blue-text {
+  color: #2AB7FE;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.shares {
+  background: #EFEFEF;
+  text-align: center;
+  padding: 10px 0;
+  color: #565656;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.box-of-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-container {
+  width: 100%;
+  box-shadow: 0 0 5px black;
+  min-height: 500px;
+}
+
+.card-picture {
+  background-image: linear-gradient(
+                     rgba(89,89,89, .45),
+                     rgba(89,89,89, .45)), url(images/dog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33%;
+  width: 100%;
+}
+
+.card-picture-text {
+  float: right;
+  margin-right: 10%;
+}
+
+.picture-text {
+  font-weight: 100;
+  margin-bottom: 5%;
+  font-size: .8em;
+}
+
+.picture-count {
+  font-size: 2.2em;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.card-picture-arrow {
+  float: left;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+
+.picture-arrow {
+  background: #fff;
+  border-radius: 50%;
+  float: left;
+  width: 80%;
+}
+
+.card-text {
+  width: 100%;
+}
+
+.card-text p {
+  text-align: center;
+}
+
+.receipient-name {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.date {
+  color: #A1A1A3;
+  margin-top: 0;
+}
+
+.link {
+  background: #EFEFEF;
+  color: #979797;
+  padding: 5% 10px;
+  font-size: .8em;
+  font-weight: 600;
+  overflow-wrap: break-word;
+  margin: 0 15%;
+}
+
+.playlist-header {
+  margin-bottom: 0;
+}
+
+.playlist-title {
+  font-size: 1.2em;
+  margin-top: 1px;
+}
+
+.attachment {
+  font-size: .7em;
+}
+
+.number-of-attachments {
+  font-size: 3em;
+  margin: 0;
+}
+
+.gray-text {
+  color: #656565;
+}
+
+
+@media screen and (min-width: 600px) {
+  .hidden-object {
+    visibility: visible;
+  }
+
+  .li-text {
+    font-size: inherit;
+  }
+
+  .card-container {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    height: 20%;
+  }
+
+  .nav-container {
+    display: inline-block;
+  }
+
+  .nav-left {
+    margin-top: 7%;
+    float: left;
+  }
+
+  .li-text {
+    display: inline;
+    margin-left: 10px;
+    vertical-align: super;
+  }
+
+  .nav-right {
+    float: right;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .blue-text {
+    display: inline-block;
+  }
+
+  .triangle {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .logo {
+    width: 75px;
+    height: 75px;
+    margin-top: 15%;
+  }
+
+  span {
+    margin: 0 10px 0 10px;
+    visibility: visible;
+  }
+
+
+  .shares {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .box-of-cards {
+    justify-content: space-around;
+    background: #EFEFEF;
+  }
+
+  .card-container {
+    width: 23%;
+    background: #FFF;
+    margin-bottom: 20px;
+  }
+
+  .card-picture {
+    width: 100%;
+  }
+
+  .card-text {
+    margin-top: 0;
+  }
+
+  .card-text p {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .link {
+    margin: 0 5%;
+    padding-left: 0;
+  }
+}
